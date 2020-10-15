@@ -9,3 +9,4 @@ echo $testNum;
 
 ?>
 
+<?php echo "see you"; ?>
