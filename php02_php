@@ -1,0 +1,30 @@
+<?php
+$name = "小林";
+if ($name) {
+    echo "私は　小林　です”;
+    else {
+    echo "小林ではありません";    
+    }
+}
+for($i = 1; $i < 1000; $i++){
+    $total += $i;
+}
+echo $total;
+
+$fruits = array("apple","banana","orannge","grape","strawberry");
+foreach($fruits as $fruits){
+    echo "果物は" . $fruits;
+    echo "\n";
+}
+
+$end = 1;
+
+for($i = 1; $i <= 1000; $i++){
+    $end += $i;
+    if($i % 5 = 0){
+        echo $i;
+    }
+}
+echo $end;
+
+?>

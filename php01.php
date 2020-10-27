@@ -1,26 +1,31 @@
 <?php
 
 $a = 3;
-echo $b = + 7;
+$b = 7;
+echo $a + $b;
+echo "\n";
 
-$array_month = [January,February,March,April,May,June,July,August,September,October,November,December];
+$array_month = ['January','Februry','March','April','May','June','August','September','October','November','December'];
 echo $array_month[7];
+echo "\n";
 
-$hello = "Hello,";
-$name = "あなたの名前";
+$hello = "Hello";
+$name = "小林";
 $world = "'s World!";
 
 echo $hello . $name . $world;
+echo "\n";
 
 $tech_boost = "tech";
-$tech_boost = $tech_boost . " boost";
+
 $tech_boost .= " boost";
 echo $tech_boost;
+echo "\n";
 
-$2020_calendar = {
+$calendar_2020 = [
     "January" => "1月",
     "February" => "2月",
-    "March" => "2月",
+    "March" => "3月",
     "April" => "4月",
     "May" => "5月",
     "June" => "6月",
@@ -30,9 +35,10 @@ $2020_calendar = {
     "October" => "10月",
     "November" => "11月",
     "December" => "12月"
-};
+];
 
-echo $2020_calendar[December];
+echo $calendar_2020["December"];
+echo "\n";
+
 
 ?>
-
