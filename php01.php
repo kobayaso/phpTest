@@ -40,5 +40,4 @@ $calendar_2020 = [
 echo $calendar_2020["December"];
 echo "\n";
 
-
 ?>
